@@ -36,7 +36,7 @@ struct QuickFiltersBar: View {
             .padding(.horizontal)
             .padding(.vertical, 8)
         }
-        .background(isDarkMode ? Color(UIColor.systemGray6) : Color(UIColor.systemGray6).opacity(0.5))
+        .background(isDarkMode ? Color(.systemGray6) : Color(.systemGray6).opacity(0.5))
     }
 }
 
@@ -57,7 +57,7 @@ struct FilterButton: View {
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 8)
-            .background(isSelected ? Color.blue : Color(UIColor.systemGray5))
+            .background(isSelected ? Color.blue : Color(.systemGray5))
             .foregroundColor(isSelected ? .white : .primary)
             .cornerRadius(20)
         }

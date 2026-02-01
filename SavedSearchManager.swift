@@ -1,6 +1,5 @@
 import Foundation
 import Combine
-import SwiftUI
 
 class SavedSearchManager: ObservableObject {
     @Published var savedSearches: [SavedSearch] = []

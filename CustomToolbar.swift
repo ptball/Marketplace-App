@@ -1,5 +1,4 @@
 import SwiftUI
-import UIKit
 
 struct CustomToolbar: View {
     @Binding var showSettings: Bool
@@ -43,7 +42,7 @@ struct CustomToolbar: View {
             }
         }
         .padding()
-        .background(isDarkMode ? Color(UIColor.systemGray6) : Color(UIColor.systemBackground))
+        .background(isDarkMode ? Color(.systemGray6) : Color(.systemBackground))
         .shadow(color: Color.black.opacity(0.1), radius: 2, y: 2)
     }
 }

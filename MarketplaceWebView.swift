@@ -4,8 +4,6 @@ import WebKit
 struct MarketplaceWebView: UIViewRepresentable {
     @Binding var url: String
     
-    typealias UIViewType = WKWebView
-    
     func makeUIView(context: Context) -> WKWebView {
         let webConfiguration = WKWebViewConfiguration()
         webConfiguration.allowsInlineMediaPlayback = true
